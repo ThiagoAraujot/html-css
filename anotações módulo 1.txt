@@ -1,0 +1,133 @@
+HTML E CSS MÓDULO 1
+
+-Parágrafos e quebra de linhas
+
+<p></p> (parágrafo)
+<br></br> (quebra de linha)
+
+-Simbolos Especiais 
+
+& + símbolo
+
+ex: &copy &reg &trade &cent &uparrow...
+
+-Emojis
+
+&#x + emoji
+
+ex: &#x1FAF6; &#x2764;
+
+-Imagens
+
+img src=""
+
+-Icon
+
+Link + favicom
+
+-Hierarquia de Títulos
+
+<h1> titulo de nível 
+.
+.
+.
+<h6> título de nívem 6
+
+-Formatações de texto
+
+*<strong> = negrito/destaque 
+
+*<i> = ítalico (não semantica)
+ ou
+ <em> = ítalico/enfase (semantica)
+
+*<mark> = marcado/destacado
+
+*<big> = texto grande
+
+*<small> = texto pequeno
+
+*<dell> = texto fica riscado
+
+*<ins> = sublinhado (semantica)
+ ou
+ <u> = (não semantica)
+
+*<sup> = texto sobrescrito (acima)
+
+*<sub> = texto subscrito (abaixo)
+
+*<code> = espaça as letras igualmente
+
+*<q> = citação (entre aspas)
+ ou 
+ <blockquote>
+
+*<abbr> = abreviações (mostra o significado ao passar o cursor)
+
+*<bdo> = texto invertido
+
+-Listas 
+
+*Ordenadas: <ol> (order list) + <li>
+
+*Não ordenadas: <ul> (unnorder list) + <li>
+
+-Definições 
+
+*<dt> = termo 
+*<dd> = descrição do termo
+(as duas devem estar dentro de um <dl>
+
+-Links  
+
+links externos: <a href> + target"_blank" + rel"external" (ABRE NOVA PÁGINA)
+
+links internos: <a href> + target"_self"
+
+-Imagem dinâmica
+
+<picture> 
+<source media>
+
+-Audios
+
+<audio src> + controls (mp3 wav ogg)
+
+-Vídeos hospedados localmente
+
+<video src> + controls + poster (mp4 webm ogg)
+
+-Vídeos do youtube: só copia e cola o código do video
+
+-Estilos locais e internos
+
+<head> 
+  <style>
+    body {}
+    h1 {}
+    h2 {}
+    p {}
+  <style>
+</head>
+
+OU (BEM MELHOR) 
+
+<head> 
+  <link css> = abre um página apenas para CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

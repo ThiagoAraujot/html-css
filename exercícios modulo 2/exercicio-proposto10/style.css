@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'android' ;
+    src: url(fontes/idroid.otf);
+}
+#titulo {
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+*{
+    height: 100%;
+}
+header {
+    background-image: linear-gradient(to bottom, #D269FF, #BB1CFF, #672D7F);
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 100%;
+}

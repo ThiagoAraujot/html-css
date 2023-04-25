@@ -1,0 +1,165 @@
+FONTES
+
+-Medidas absolutas 
+
+cm, mm, in, pt, px, pc (usar px)
+
+-Medidas relativas 
+
+em, rem, ex, vw, vh, % (usar em)
+
+// 16px geralmente = 1em 
+
+Shorthand (atalho)
+
+style - weight - size - family (ordem restrita)
+
+exemplo:
+            font-family: Arial;
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+OU
+            font: italic normal 1em 'Arial'; (shorthand)
+
+GOOGLE FONTS
+
+acessar fonts.google.com
+escolher a fonte
+selecionar
+import
+ctrlC + ctrlV no código 
+
+FONTES EXTERNAS 
+
+*procurar fontes no dafont.com
+
+abre <style>
+@font-face 
+exemplo: 	 @font-face {
+                 font-family: ; 'nome da fonte'
+                  src: url();      //dar ctrlP e adcionar o arquivo da fonte
+       	 }
+
+
+PSEUDO-CLASSES
+
+vem de uma div
+
+div: == pseudo-classe
+exemplo: 
+   
+	div:hover { }    (altera qnd passar o mouse por cima)
+
+em HTML 
+		div {
+			<p>
+		}
+em style
+		div > p { }      (tag p está dentro da div)
+
+
+
+#   = id
+.    = class
+:    = pseudo-classe
+::   = pseudo-elemento
+
+exemplos: 
+
+*hover 
+*visited
+*active
+*before
+*after
+
+MODELO DE CAIXAS
+
+Height    = altura
+width      = largura 
+border    = borda 
+padding  = espaço interno
+margin    = espaço externo
+outline    = entre borda e magin
+
+TIPOS DE CAIXA 
+
+*box-level = utiliza uma linha inteira / ex: div, h1...h6, p, main, header, nav
+
+*inline-level = nao quebra linha / ex: span, a, code, small, strong, em, buttom
+
+CRIAÇÃO DO SITE
+
+separar em caixas 
+
+<header>    = cabeçalho
+<nav>         = navegação/Menu
+<main>       = principal/Conteúdo
+<article>     = Conteúdo
+<aside>      = nao necessariamente é conteudo/ um a mais
+<footer>     = rodapé
+
+
+MONTAR UM <VAR> EM CSS
+
+:root { }
+(todos os componentes começam com dois traços (--), ex:
+
+--cor01: 153t36d
+--fonte-padrao: jdnewidnw
+
+*se for adcionar style a algo que esta numa caixa é necessario especificar!
+
+ex: header > h1 {}    (h1 esta dentro de header)
+ex: main p {}	(p pode estar dentro de outra caixa, portanto nao precisa de >)
+
+*USAR DEVTOOLS PARA TESTAR MEDIDAS NA TELA
+/inspecionar
+
+SOMBRAS
+
+de texto: text-shadow
+de caixa: box-shadow
+
+
+*transition duration: 1s; 	(tempo de transiçao em que algo aparece na tela)
+			(deve estar dentro de um Hover)
+
+IMAGENS FLEXÍVEIS
+
+<picture>
+	<source media=>
+	<img>
+<picture>
+
+*ADCIONAR EMOJIS EM CSS
+
+pegar o código na emojipedia
+adcionar no código com '\2714' 
+
+se desejar adcionar espaço, colocar \00A0'
+EX: 
+	'\2714\00A0\00A0'   (dois espaços vazios pra direita)
+
+*ESPAÇAMENTO ENTRE AS LINHAS 
+
+line-height:
+
+
+*REDIMENSIONAR UMA LISTA 
+
+list-style-position: inside;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

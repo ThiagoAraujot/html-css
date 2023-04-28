@@ -4,29 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de imagem de fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
+            height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper001.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand backgorund
+
+            color > image > position > repeat > [size] > attachment
+
+            
+            background: black url(imagens/wallpaper001.jpg) center center no-repeat cover fixed
+
+            */
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
             border-radius: 10px;
+        }
+        main p {
+            text-indent: 20px;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
     <h1>Teste de imagem de fundo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio corrupti, amet laudantium ratione saepe dolorum laborum iusto nobis sit quisquam! Dolore ipsam magni, repellat est alias inventore illo nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sunt dicta. Repellendus animi consequatur nemo laudantium tempora architecto quo quasi labore nam sunt adipisci quae, non sit? Culpa, temporibus quo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio corrupti, amet laudantium ratione saepe dolorum laborum iusto nobis sit quisquam! Dolore ipsam magni, repellat est alias inventore illo nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sunt dicta. Repellendus animi consequatur nemo laudantium tempora architecto quo quasi labore nam sunt adipisci quae, non sit? Culpa, temporibus quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique iusto sint, accusamus doloribus, tenetur eaque voluptas unde tempora quo ex dolore, quod id quia officia assumenda placeat molestiae aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempore aut sint iure voluptate libero. Sit voluptatum neque voluptas natus porro? Placeat nisi, obcaecati necessitatibus odio nesciunt numquam excepturi accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus alias eos iusto consectetur nostrum, itaque natus maiores fugiat necessitatibus ipsa voluptatum in rerum dolorem, reiciendis optio? Sapiente excepturi quasi at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia commodi odit rem labore aperiam possimus sit aliquam alias tempora recusandae sint modi corporis autem earum dicta eos, aut itaque nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatum. Beatae, deleniti distinctio possimus dicta accusantium repellat rerum expedita corrupti laborum. Consectetur illo modi deleniti beatae molestiae, laudantium voluptatum tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, delectus quis tempora ullam possimus dolor labore aperiam assumenda porro pariatur sint eum id blanditiis hic, exercitationem libero maxime quasi officia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem velit molestiae placeat distinctio culpa atque quisquam libero suscipit! Sint temporibus at eius odit a voluptatem, ullam similique quae ex pariatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, ipsum perferendis ullam iste aliquid assumenda libero eligendi excepturi recusandae, nulla quibusdam sed id similique natus? Veritatis explicabo maxime iure iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus atque explicabo ullam! Ad corrupti fugiat sit quibusdam facilis, nulla excepturi, velit molestias eum nesciunt nemo quaerat provident recusandae corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta quasi sint suscipit libero blanditiis numquam esse quod iste. Alias suscipit fugiat et laudantium voluptatibus culpa nobis iste vel natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia numquam debitis laudantium, veritatis sapiente eligendi ea iusto nihil eos iure rerum unde dicta libero distinctio ut nam vitae expedita tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sequi sed, earum repellat, perspiciatis aut nam autem dolores quam consectetur, sint similique maxime ad recusandae neque! Quasi molestias autem esse.</p>
     </main>
 </body>
 </html>

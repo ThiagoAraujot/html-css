@@ -1,0 +1,21 @@
+
+BACKGROUND 
+
+/* Shorthand
+
+background: color > image > position > repeat > size > attachment
+
+position: especifica onde estará o foco da imagem: left top, left center, center center, right bottom...
+repeat: se a imagem ira se repetir na tela: no-repeat, repeat x (horizontal), repeat y (vertical)...
+size: auto - contain - cover (preenche a tela inteira
+attachment: fixed (nao se mexe), scrool (a imagem se mexe junto ao scrool 
+
+COMO CENTRALIZAR UM ITEM
+
+container {
+	display: flex
+	justify-content: center 	(left-center-right) HORIZONTAL
+	align-items: center 		 VERTICAL
+	}
+
+deve ser colocado na tag CONTAINER

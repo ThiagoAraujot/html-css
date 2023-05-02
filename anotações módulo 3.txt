@@ -19,3 +19,9 @@ container {
 	}
 
 deve ser colocado na tag CONTAINER
+
+HIERARQUIA DE TABELA (simples)
+        TABLE = tabela 
+            TABLE ROW = linha de tabela  (TR)
+                TABLE HEADER = cabeçalho de tabela (TH)
+                TABLE DATA = dado de tabela (TD)

@@ -46,5 +46,31 @@ EXPANDIR UMA TD (TABLE DATA)
 colspan = expande colunas 
 rowspan = expande linhas 
 
+AGRUPANDO COLUNAS COM COLGROUP (EDITAR A COLUNA INTEIRA)
+
+<colgroup>
+        <col class="area">
+        <col class="Disciplina">
+        <col class="notas">
+        <col class="media">
+    </colgroup>
+
+DEPOIS APLICA ALTERAÇÕES NO CSS:
+
+    <style>
+        col.area {}
+        col.media {}
+    </style>
+
+TABELAS RESPONSIVAS (se adaptar a tela)
+
+adciona toda a table numa <div> 
+
+em style:
+
+	div {
+		overflow-x:auto; 
+	}
+
 
 

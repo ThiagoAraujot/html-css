@@ -1,0 +1,28 @@
+FORMULÁRIOS 
+
+Os formulários devem estar dentro de:
+
+	<form>	      </form>
+
+
+Input de texto:	<input type="text" name=" " id=" ">
+
+	Ex:	<form>
+			<p>Nome: <input type="text" name="nome" id="nome"></p>
+		</form>
+
+
+Input de envio:	<input type="submit" value=" ">
+
+	Ex:	<form>
+			<p><input type="submit" value="Enviar"></p>
+		</form>
+
+COMO TIRAR A BARRA DE ROLAGEM VERTICAL E HORIZONTAL:
+
+em style: 
+
+	::-webkit-scrollbar {
+		width: 0px;
+		height: 0px;
+	}

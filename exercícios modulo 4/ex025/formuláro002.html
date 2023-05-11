@@ -10,32 +10,30 @@
     <h1>Teste de Formulário</h1>
 
     <form action="cadastro.php" method="get">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo">
-        </p>
-        <p>
-            <label for="iemail">Email</label>
-            <input type="text"name="email" id="iemail" placeholder="email" required max="30">
-        </p>
-        <p>
-            <label for="inota">Nota</label>
-            <input type="number" name="nota" id="inota" min="0" max="10" step="0.1" required>
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo">
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email"name="email" id="iemail" placeholder="email" required max="30" autocomplete="email">
+            </p>
+            <p>
+                <label for="inota">Nota</label>
+                <input type="number" name="nota" id="inota" min="0" max="10" step="0.1" required>
+            </p>
+            <div>
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" required>
+            </div>
 
-        <div>
-            <label for="isenha">Senha</label>
-            <input type="password" name="senha" id="isenha" required>
-        </div>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-
-        
-
-
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
     </form>
     
 </body>

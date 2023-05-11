@@ -26,6 +26,34 @@ ex: peso; nome; altura; idade...
 POST para informações que requer segurança (dados sensíveis)
 ex: cpf; identidade; endereço; nome completo; senha...
 
+INPUT: CHECKBOX:
+
+	<input type="checkbox" name=" " id=" ">
+
+   - Se desejar que algumas opções já iniciem marcadas, deve-se usar o atributo "checked" dentro de tag <input>. O mesmo vale para input radio.
+
+	Ex:	<fieldset>
+			<legend>Esportes favoritos</legend>
+			<input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
+			<input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol</label><br>
+		</fieldset>
+
+
+INPUT: RADIO:
+
+	<input type="radio" name=" " id=" ">
+
+   - Para que apenas uma opção possa ser marcada por vez, é necessário que todas possuam o mesmo "name".
+   - Também é recomendado usar o parâmetro value=" " dentro da tag <input>.
+
+	Ex:	<fieldset>
+			<legend>Sexo</legend>
+			<input type="radio" name="sexo" id="isxmas" value="M" checked> 
+			<label for="isxmas">Masculino</label><br>
+			<input type="radio" name="sexo" id="isxfem" value="F">
+			<label for="isxfem">Feminino</label>
+		</fieldset>
+
 COMO TIRAR A BARRA DE ROLAGEM VERTICAL E HORIZONTAL:
 
 em style: 

@@ -18,6 +18,14 @@ Input de envio:	<input type="submit" value=" ">
 			<p><input type="submit" value="Enviar"></p>
 		</form>
 
+Method GET  e POST 
+
+GET para informações que não necessitam de tanta segurança  (pode ser usado no máximo até 3.000 bites/3.000 letras
+ex: peso; nome; altura; idade...
+
+POST para informações que requer segurança (dados sensíveis)
+ex: cpf; identidade; endereço; nome completo; senha...
+
 COMO TIRAR A BARRA DE ROLAGEM VERTICAL E HORIZONTAL:
 
 em style: 
